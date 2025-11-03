@@ -14,8 +14,11 @@
 * I started to have trouble with incorporating the downloaded file in my IDE
 * Next Step: Ask Mr. Mueller or anyone else that uses GoDot how to put GoDot in my IDE
 
-### X/X/XX:
-* Text
+### 11/2/2025:
+* I decided to ask my friend some help on how to add GoDot to the IDE and I got this [link](https://editor.godotengine.org/releases/latest/) for GoDot
+* My first step is to actually familiarize myself with godot so I know what is happening.
+ * I first learned how to insert a sprite into the screen.
+  * I had some trouble at first, but I ended up asking one of my friends for help. Turns out I just need to drag the file into the screen.
 
 
 <!-- 
