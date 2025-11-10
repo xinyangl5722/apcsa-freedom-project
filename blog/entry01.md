@@ -10,7 +10,10 @@ I started trying to figure out how to use GoDot and find some videos. I found a 
 Right now, I am currently in the stage of **planning the solution** as I plan to make my desktop pet. I am still at the stage on where I am figuring out how to use my tool to make my project. I have already decided on the project I am going to do which is the desktop pet and I am looking forward to get more familiar with my tool that I'm planning to use.
 
 ### Skills
+A few skills I have learned is **collaboration/communication**. When I started to have some trouble about my tool, I asked my classmate who is using the same tool as me on how to solve the issue I'm having. For example, when I didn't know how to incorporate GoDot into my IDE, I asked my classmate on how to do it. When she didn't know it either, we both asked Mr. Mueller on how we can do that. After a bit of trial and error, we found out we may need a windows for this. ANother skill I have learned is **consideration**. I am planning to make a downloadable desktop pet that can be used by other people.
 
+### Summary
+So in short, I have planned out the project I will be making for the year and I have decided what tool I will be using. Overall, I am looking forward to getting a windows for my tool and familiarize myself with it.
 
 [Next](entry02.md)
 
