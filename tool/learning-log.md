@@ -23,6 +23,12 @@
 <img width="1360" height="467" alt="Screenshot 2025-11-02 9 02 23 PM" src="https://github.com/user-attachments/assets/6ed1a572-742b-476f-a57b-57f54b7880c7"/>
 * Next Steps: Familiarize myself with the GoDot a bit more and try to find out how to incorporate it into my IDE
 
+### 11/16/2025:
+* I first start to learn how to familiarize myself with this GoDot Application
+* I looked at the tutorial in the [official GoDot](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/02.player_scene.html) for a tutorial of making a 2D game
+* I learned that there are different nodes for different properties in a game
+  * I created this `AnimatedSprite2D` node and inserted the animated sprites. (These are from the tutorial in the GoDot)
+ 
 
 <!-- 
 * Links you used today (websites, videos, etc)
