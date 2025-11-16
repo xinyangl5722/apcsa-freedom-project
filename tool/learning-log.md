@@ -24,11 +24,25 @@
 * Next Steps: Familiarize myself with the GoDot a bit more and try to find out how to incorporate it into my IDE
 
 ### 11/16/2025:
+* For this learning log, I learned how to set up the sprites on GoDot
 * I first start to learn how to familiarize myself with this GoDot Application
 * I looked at the tutorial in the [official GoDot](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/02.player_scene.html) for a tutorial of making a 2D game
 * I learned that there are different nodes for different properties in a game
   * I created this `AnimatedSprite2D` node and inserted the animated sprites. (These are from the tutorial in the GoDot)
-<img width="1360" height="467" alt="Screenshot-animation-page.png">
+<img width="1260" height="467" alt="Screenshot-animation-page.png" src="https://github.com/xinyangl5722/apcsa-freedom-project/blob/main/tool/Screenshot-animation-page.png?raw=true">
+
+* As you can see, on the bottom, there is the added animation sprites
+* I later created a script for the code
+* I start with declaring the member variables needed for the game to work
+```java
+extends Area2D
+
+@export var speed = 400
+var screen_size
+```
+* The `exports var speed` allows to set the speed of the sprite
+* The `var screen-size` is the size of the game.
+* **Next Steps: Learn how to make the animations move**
  
 
 <!-- 
