@@ -28,6 +28,7 @@
 * I looked at the tutorial in the [official GoDot](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/02.player_scene.html) for a tutorial of making a 2D game
 * I learned that there are different nodes for different properties in a game
   * I created this `AnimatedSprite2D` node and inserted the animated sprites. (These are from the tutorial in the GoDot)
+<img width="1360" height="467" alt="Screenshot-animation-page.png">
  
 
 <!-- 
