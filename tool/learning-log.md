@@ -43,7 +43,58 @@ var screen_size
 * The `exports var speed` allows to set the speed of the sprite
 * The `var screen-size` is the size of the game.
 * **Next Steps: Learn how to make the animations move**
- 
+
+### 11/23/2025
+* Today I learned how to make the sprites move.
+* When I first played the game the last time, the sprite didn't move. So I didn't know what to do.
+  * So I went to the [GoDot Docs](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/05.the_main_game_scene.html) and realized I need to make the main scene
+* So, I first made a main scene so that the "game" has a main scene to start
+<img width="286" height="198" alt="image" src="https://github.com/user-attachments/assets/d52d686b-a000-47bc-866e-7571a491f2de" />
+
+* So I just added the scene I made the animation for into the main scene
+* I later started to add code for the animation while the [GoDot Docs for Animation](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/03.coding_the_player.html) teaches me how to do it.
+
+```java
+func _process(delta):
+	var velocity = Vector2.ZERO
+	if Input.is_action_pressed("move_right"):
+		velocity.x += 1
+	if Input.is_action_pressed("move_left"):
+		velocity.x -= 1
+	if Input.is_action_pressed("move_down"):
+		velocity.y += 1
+	if Input.is_action_pressed("move_up"):
+		velocity.y -= 1
+
+if velocity.length() > 0:
+		velocity = velocity.normalized() * speed
+		$AnimatedSprite2D.play()
+	else:
+		$AnimatedSprite2D.stop()
+```
+* This is basically the code for the sprite to move. So for whatever arrow key you pressed, it will go in that direction
+* In addition, the if statement below is for the sprite to keep moving and stop moving when the arrow keys are not pressed
+* I later did the code to flip the sprites when they have to go to the opposite direction
+
+```java
+if velocity.x != 0:
+		$AnimatedSprite2D.animation = "walk"
+		$AnimatedSprite2D.flip_v = false
+		
+		$AnimatedSprite2D.flip_h = velocity.x < 0
+
+	elif velocity.y != 0:
+		$AnimatedSprite2D.animation = "up"
+		$AnimatedSprite2D.flip_v = velocity.y > 0
+		
+	if velocity.x < 0:
+		$AnimatedSprite2D.flip_h = true
+	else:
+		$AnimatedSprite2D.flip_h = false
+```
+* This code shows that the sprite will flip depending on the values of x and y to see if it will switch to another animation movement
+* Next Steps: Try figuring out some if-statements for sprites such as reacting when touched the sprite with mouse
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
