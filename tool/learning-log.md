@@ -95,6 +95,26 @@ if velocity.x != 0:
 * This code shows that the sprite will flip depending on the values of x and y to see if it will switch to another animation movement
 * Next Steps: Try figuring out some if-statements for sprites such as reacting when touched the sprite with mouse
 
+### 12/7/2025
+* Today, I learned another if-statement that changes something else instead of just movement.
+* I went back to the [GoDot Docs](https://docs.godotengine.org/en/4.4/getting_started/first_2d_game/03.coding_the_player.html#choosing-animations) for this. I also looked back at the previous code and decided to take away from some fragments and put them together.
+* I start on with this code.
+```java
+if Input.is_action_pressed("click"):
+		$AnimatedSprite2D.animation = "click"
+```
+* This shows that it will transform into another sprite when I click the letter k.
+* The only problem is that when I start the game, it appears as the other sprite.
+* So, I started to add the else.
+```java
+if Input.is_action_pressed("click"):
+		$AnimatedSprite2D.animation = "click"
+	else:
+		$AnimatedSprite2D.animation = "walk"
+```
+* Now it works, but the next problem is that the sprite don't stay as the other sprite when I click the key.
+* So, I need to figure out how to keep the sprite like the other sprite when I press the k key
+* Next Steps: Continue to fix on the if-statement so the sprite will stay as the other sprite for longer if I pressed k.
 
 <!-- 
 * Links you used today (websites, videos, etc)
