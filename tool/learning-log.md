@@ -122,7 +122,25 @@ if Input.is_action_pressed("click"):
 	* In a game, there are scenes which are parts of a game. It can be a player, a random object, enemy, etc.
  	* A scene is made up with nodes (the smallest blocks arranged)
 * I went back to my own code and first familiarize myself with the nodes I had already been doing for the past weeks. First was the Animation node.
+<img width="1912" height="1087" alt="image" src="https://github.com/user-attachments/assets/27cf341f-f3f7-4aa9-bc18-f8981d014f32" />
+* At the side bar on the top left, there is a enemy node with an Animation node that is the child of the enemy node. The animation node provides the animation needed for the enemy node.
+* At the sidebar on the left, we have the sprite frames which we can include the sprites we can include for the animation
+* The transform section shows the starting point of the sprite
+* I also tried to learn how to rotate the sprite that I had been working on for the past weeks now that I have refreshed what the `animation2D` node does
 
+```java
+var rotation_direction = 0
+func get_input():
+	look_at(get_global_mouse_position())
+	velocity = transform.x * Input.get_axis("move_down", "move_up") * speed
+
+func _physics_process(delta):
+	get_input()
+	move_and_slide()
+```
+
+* The only problem is that some variables _"are not identified"_ so I need to work on that
+* Next Steps: Continue familiarizing myself with the GoDot function thing and learn how to rotate sprites
 
 <!-- 
 * Links you used today (websites, videos, etc)
