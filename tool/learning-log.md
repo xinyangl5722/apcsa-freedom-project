@@ -116,6 +116,14 @@ if Input.is_action_pressed("click"):
 * So, I need to figure out how to keep the sprite like the other sprite when I press the k key
 * Next Steps: Continue to fix on the if-statement so the sprite will stay as the other sprite for longer if I pressed k.
 
+### 12/14/2025
+* Today, I realized that I am still not familiar with GoDot's function, so I decided to try to familiarize myself with it (because everything looks so confusing)
+* I started with this [GoDot overview](https://docs.godotengine.org/en/stable/getting_started/introduction/key_concepts_overview.html) with their scenes and nodes
+	* In a game, there are scenes which are parts of a game. It can be a player, a random object, enemy, etc.
+ 	* A scene is made up with nodes (the smallest blocks arranged)
+* I went back to my own code and first familiarize myself with the nodes I had already been doing for the past weeks. First was the Animation node.
+
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
