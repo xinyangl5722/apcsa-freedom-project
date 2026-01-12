@@ -142,6 +142,20 @@ func _physics_process(delta):
 * The only problem is that some variables _"are not identified"_ so I need to work on that
 * Next Steps: Continue familiarizing myself with the GoDot function thing and learn how to rotate sprites
 
+### 1/12/2026
+* I found this [YouTube tutorial](https://www.youtube.com/watch?v=9JHFrnt5j_k) on how to create a desktop pet
+	* I turned on advanced settings and then turned on “transparency” in the project settings display version
+	* I later switched the viewport size to 150 as the default since it needs to be the size of the desktop pet
+	* Later, I went to the rendering to turn on transparent background in viewport
+	* I later went on to game and turn off the embedded gameplay thing
+* This was all on the project settings that we basically have to do before actually making the code
+	* Transparency allowed for the game to have a transparent background
+		* This is probably because the desktop pet already is the transparent background
+	* Also the enabled play is probably because the desktop pet is not really a game, but it is more of a downloadable feature
+* My next steps for the next learning log
+	* Have a mock sprite to input into the “game” and then test it out according to the video
+
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
