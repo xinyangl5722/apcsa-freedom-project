@@ -39,7 +39,7 @@ if Input.is_action_pressed("click"):
 In addition, I also learned hwo to make a main scene and connect all other scenes together using this [GoDot Docs](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/05.the_main_game_scene.html).
 <img width="286" height="198" alt="image" src="https://github.com/user-attachments/assets/d52d686b-a000-47bc-866e-7571a491f2de" />
 
-My goal for winter break and the next steps in general is going to be learning the components to making a desktop pet. In addition, I am also planning to learn other components of GoDot such as dragging sprites, etc.
+My goal for winter break and the next steps in general is going to be learning the components to making a desktop pet such as transparent windows and making the sprite walk randomly. In addition, I am also planning to learn other components of GoDot such as dragging sprites, etc.
 
 ### EDP
 I'm in the middle of **planning the prototype** as I had learned a few of the basics of my tool such as reactions when a key is pressed, and making the animations move. In addition, I learned the different layers in each GoDot game such as nodes and scenes.
@@ -48,7 +48,7 @@ I'm in the middle of **planning the prototype** as I had learned a few of the ba
 One skill I had developed was **How to learn**. In the past month, I had been learning some code by learning some tutorials from the [GoDot Docs](https://docs.godotengine.org/en/stable/index.html). Those tutorials for a few basic components really gave me more of an insight on how to learn the coding and the components in GoDot. Another skill I had developed was **Organization**. Because I am in a coding style that is completely different from what I am usually used to (like the 2D section of the actual game to place the sprites in ), I have to be very careful on organizing the code or else things can get really messy. I basically learned to name each scene as the name that is easier for me to understand, putting each scene in each parent scene, etc.
 
 ### Summary
-In short, I had figured out to download the GoDot platform and also learn a few of the basic concepts of the GoDot code language and fuction, and I am planning to continue to learn more of the components in GoDot such as how to make the sprite randomly move, how to move a sprite when you click and drag it, etc. In general, my goal for winter break and the next steps in general is also going to be learning the components to making a desktop pet.
+In short, I had figured out to download the GoDot platform and also learn a few of the basic concepts of the GoDot code language and fuction, and I am planning to continue to learn more of the components in GoDot such as how to make the sprite randomly move, how to move a sprite when you click and drag it, etc. In general, my goal for winter break and the next steps in general is also going to be learning the components to making a desktop pet such as transparent windows and making the sprite walk randomly.
 
 [Previous](entry01.md) | [Next](entry03.md)
 
