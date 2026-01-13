@@ -144,10 +144,15 @@ func _physics_process(delta):
 
 ### 1/12/2026
 * I found this [YouTube tutorial](https://www.youtube.com/watch?v=9JHFrnt5j_k) on how to create a desktop pet
+* I decided to learn how to create some sort of transparent background
 	* I turned on advanced settings and then turned on “transparency” in the project settings display version
 	* I later switched the viewport size to 150 as the default since it needs to be the size of the desktop pet
-	* Later, I went to the rendering to turn on transparent background in viewport
+   <img width="1197" height="737" alt="image" src="https://github.com/user-attachments/assets/92f1e7f8-5a08-4bbd-a8c0-d48be60f5b8b" />
+	* I then went to the rendering to turn on transparent background in viewport
 	* I later went on to game and turn off the embedded gameplay thing
+ 		* In addition to that, I also added some nodes for the test "desktop pet"
+   <img width="1910" height="866" alt="image" src="https://github.com/user-attachments/assets/dc7c2d97-3bf2-4e2d-bcbb-955a290e2cfd" />
+
 * This was all on the project settings that we basically have to do before actually making the code
 	* Transparency allowed for the game to have a transparent background
 		* This is probably because the desktop pet already is the transparent background
