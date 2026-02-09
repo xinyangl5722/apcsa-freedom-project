@@ -9,8 +9,15 @@ I started to make the background transparent by turning on transparency and maki
 After a few setting changes, I started to the game itself and turn off _"embedded gameplay"_ since I don't need it.
 <img width="1910" height="866" alt="image" src="https://github.com/user-attachments/assets/dc7c2d97-3bf2-4e2d-bcbb-955a290e2cfd" />
 
+My next step is to continue learning on how to create a desktop pet such as random walk movements and climbing while planning on making my own with planning out when I should create each step and designing the desktop pet.
+
 ### EDP
 I am currently stil on the **planning the prototype** stage as I am learning on how to make a desktop pet in order to create my project, but I am slowly heading on to making my own desktop pet.
+
+### Skills
+One skill I have learned is **How to learn**. I learned how to use the settings from a YouTube video in order to make the transparency for the potential desktop pet. Another skill I had is **Logical reasoning**. I started to understand in the tutorial that we need a transparent background for the desktop pet because the desktop pet doesn't have a gameplay background to begin with, so I started to understand the purpose of all the setting edits in the tutorial.
+
+###
 
 [Previous](entry02.md) | [Next](entry04.md)
 
