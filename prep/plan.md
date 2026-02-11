@@ -1,7 +1,7 @@
 # Plan
 
 ## Tool: GoDot
-## Product: Desktop Pet
+## Product: Desktop Pet that roams around your computer
 
 ---
 
