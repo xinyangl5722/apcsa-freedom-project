@@ -11,7 +11,7 @@
 
 - [ ] Set up the settings for the background for transparency in order to have a transparent background (Deadline: 2/23)
 - [ ] Design the desktop pet (basically just draw the desktop pet frames) (Deadline: 3/3)
-- Desktop pet code
+- [ ] Desktop pet code
   - [ ] Make the animation frames for the desktop pet (Deadline: 3/12)
   - [ ] Make the code in order to make the desktop pet move in a random direction (left or right) (Deadline: 3/20)
   - [ ] Make the code in order for the pet to flip in the opposite direction (Deadline: 3/23)
