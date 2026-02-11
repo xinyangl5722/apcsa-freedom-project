@@ -9,7 +9,7 @@
 
 #### MVP
 
-- [ ] Set up the settings for the background for transparency in order to have a transparent backgorund (Deadline: 2/23)
+- [ ] Set up the settings for the background for transparency in order to have a transparent background (Deadline: 2/23)
 - [ ] Design the desktop pet (basically just draw the desktop pet frames) (Deadline: 3/3)
 - [ ] Make code to make the desktop pet move randomly (Deadline: 3/23)
   - [ ] Make the animation frames for the desktop pet (Deadline: 3/12)
