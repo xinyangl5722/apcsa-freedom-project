@@ -21,7 +21,11 @@
 #### Beyond MVP
 
 - [ ] Create code to make the desktop pet climb up the desktop
+  - [ ] Create code where the desktop pet have random movements either up or down
+  - [ ] Create code where the desktop pet also have a random movement code which determines either in the left and right direction or up and down direction when it reaches the corner
 - [ ] Make the pet interactive (if you tap on it, it will give a comforting dialogue)
+  - [ ] Make some sort of if-statement on if the desktop pet is clicked
+  - [ ] Make code on random dialogue that results from the if-statement
 
 
 <!-- EXAMPLE
