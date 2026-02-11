@@ -13,7 +13,7 @@
 - [ ] Design the desktop pet (basically just draw the desktop pet frames) (Deadline: 3/3)
 - [ ] Make code to make the desktop pet move randomly (Deadline: 3/23)
   - [ ] Make the animation frames for the desktop pet (Deadline: 3/12)
-  - [ ] Make the code in order to make the random movements (Deadline: 3/19)
+  - [ ] Make the code in order to make the desktop pet move in a random direction (left or right) (Deadline: 3/19)
   - [ ] Make the code in order for the pet to flip (Deadline: 3/22)
 - [ ] Make this time to fix on errors such as if the pet won't flip or just keeps going as it reaches the end of the computer (Deadline: 4/5)
 
