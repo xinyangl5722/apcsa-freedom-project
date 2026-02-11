@@ -14,8 +14,8 @@
 - [ ] Make code to make the desktop pet move randomly (Deadline: 3/23)
   - [ ] Make the animation frames for the desktop pet (Deadline: 3/12)
   - [ ] Make the code in order to make the desktop pet move in a random direction (left or right) (Deadline: 3/19)
-  - [ ] Make the code in order for the pet to flip directions (Deadline: 3/22)
-- [ ] Make this time to fix on errors such as if the pet won't flip or just keeps going as it reaches the end of the computer (Deadline: 4/5)
+  - [ ] Make the code in order for the pet to flip in the opposite direction (Deadline: 3/22)
+- [ ] Make this time to fix on errors such as if the pet won't flip or it just keeps walking even though it reaches the end of the computer (Deadline: 4/5)
 
 #### Beyond MVP
 
