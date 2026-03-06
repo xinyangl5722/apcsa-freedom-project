@@ -160,6 +160,17 @@ func _physics_process(delta):
 * My next steps for the next learning log
 	* Have a mock sprite to input into the “game” and then test it out according to the video
 
+### 3/6/2026
+* I continued setting up the transparency background
+<img width="1905" height="1020" alt="image" src="https://github.com/user-attachments/assets/1e77eab5-9c4e-4daf-9279-88e3f1d85274" />
+	* I started with creating the animation sprite frames and added the two sprites into the frames box below
+ 	* I later added a script and started writing the code according to the [video](https://www.youtube.com/watch?v=9JHFrnt5j_k&t=152s).
+<img width="1626" height="1038" alt="image" src="https://github.com/user-attachments/assets/974dfb4d-9051-4f23-a8cb-7c9c84330fa7" />
+  	* However, there is some sort of error, so I need to fix the code.
+  	* Next steps: Learn the movement for the sprite and trying to fix the code for transparent background
+
+
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
