@@ -21,7 +21,7 @@ window.unresizable = false
 ```
 There is a problem. There were lines of red at the code. This indicated that there is an error. I was pretty confused about this. So, I decided to plan to rewatch the video tutorial and see if there is anything that I have missed. I also started to look into the next video of the [YouTube tutorial](https://www.youtube.com/watch?v=fwh0U3vIA3s&t=1s) on how I can make the movement so I can get a heads up after I finished fixing on the problem with transparent windows.
 <img width="1626" height="1038" alt="image" src="https://github.com/user-attachments/assets/974dfb4d-9051-4f23-a8cb-7c9c84330fa7" />
-In addition, I started with the design for the desktop pet for the MVP. I decided that it would be a pixel color. I made a small sketch on what it is going to be.
+In addition, I started with the design for the desktop pet for the MVP. I decided that it would be a pixel style of the desktop pet. I made a small sketch on what it is going to be.
 
 ![alt text](image-1.png)
 
