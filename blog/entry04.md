@@ -2,7 +2,7 @@
 ##### 03/15/2026
 
 ### Continue with Learning the Desktop Pet
-I continued with the [YouTube tutorial](https://www.youtube.com/watch?v=9JHFrnt5j_k) for the transparent windwos. I started off with putting a sprite as a placeholder in my testing project.
+I continued with the [YouTube tutorial](https://www.youtube.com/watch?v=9JHFrnt5j_k) for the transparent windows. I started off with putting a sprite as a placeholder in my testing project.
 <img width="1905" height="1020" alt="image" src="https://github.com/user-attachments/assets/1e77eab5-9c4e-4daf-9279-88e3f1d85274" />
 I later created the animation frames by putting two different sprite frames together to make it look like a walking animation. I added a script for the desktop pet and wrote a few lines of code in there in order for the transparent background to work.
 ```java
