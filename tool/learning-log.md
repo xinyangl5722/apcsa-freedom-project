@@ -21,6 +21,7 @@
 * I later learned how to insert a sprite into the screen.
   * I had some trouble at first, but I ended up asking one of my friends for help. Turns out I just need to drag the file into the screen.
 <img width="1360" height="467" alt="Screenshot 2025-11-02 9 02 23 PM" src="https://github.com/user-attachments/assets/6ed1a572-742b-476f-a57b-57f54b7880c7"/>
+
 * Next Steps: Familiarize myself with the GoDot a bit more and try to find out how to incorporate it into my IDE
 
 ### 11/16/2025:
@@ -36,7 +37,6 @@
 * I start with declaring the member variables needed for the game to work
 ```java
 extends Area2D
-
 @export var speed = 400
 var screen_size
 ```
@@ -168,6 +168,43 @@ func _physics_process(delta):
 <img width="1626" height="1038" alt="image" src="https://github.com/user-attachments/assets/974dfb4d-9051-4f23-a8cb-7c9c84330fa7" />
   	* However, there is some sort of error, so I need to fix the code.
   	* Next steps: Learn the movement for the sprite and trying to fix the code for transparent background
+ 
+### 3/21/2026
+* I went back to the [YouTube video](https://www.youtube.com/watch?v=9JHFrnt5j_k&t=1s) to fix up the transparency background
+* As I went through the video, I saw that I had to click on a button for auto play, so I clicked on auto play
+  
+<img width="570" height="283" alt="image" src="https://github.com/user-attachments/assets/313e063c-daa3-4e1d-a66b-73a7159c1656" />
+
+* I later also realized that I had to align the desktop pet with the blue box on the 2D display
+  
+<img width="295" height="283" alt="image" src="https://github.com/user-attachments/assets/17a1f9b3-fb6e-4b70-beca-50b57c59b96d" />
+
+* Later on, I save it as a new folder called "Scenes" and create a new script in a new folder called "scripts" folder
+* Then, I started to add the following code again
+
+```java
+# Get acces to actual operating window
+	var window = get_window()
+	
+	# Set transparency
+	# enable transparency for both viewport and operating system
+	get_viewport().transparent_bg = true
+	window.transparent = true
+	
+	# Window shape
+	# remove borders so character is floating
+	window.borderless = true
+	
+	# keep sprite above everything
+	window.always_on_top = true
+	
+	# Force windows to relax & let borderless
+	window.unresizable = false
+```
+* And then, the code finally worked!
+* I finally learned how to create the transparent background for the desktop pet successfully. My next steps are to give the desktop pet movement while also creating my mvp by looking for the design of my desktop pet
+
+
 
 
 
