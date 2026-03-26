@@ -205,6 +205,63 @@ func _physics_process(delta):
 * I finally learned how to create the transparent background for the desktop pet successfully. My next steps are to give the desktop pet movement while also creating my mvp by looking for the design of my desktop pet
 
 
+### 3/26/2026
+* Today, I learned how to make my desktop pet move and give it a brain with the help of a [YouTube tutorial](https://www.youtube.com/watch?v=fwh0U3vIA3s)
+* First, I started to create the code for just making the desktop pet move.
+
+```java
+func _process(delta):	
+	var window = get_window()
+	
+	# Vector2 vc Vector2i
+	# Monitor is grid of pixles and cannot be at 10.5
+	# Can use Vector2i to tell window to move exam coordinate
+	var move_vector = Vector2i(direction * move_speed)
+	
+	# Apply to window
+	window.position += move_vector
+```
+
+* Basically, I use this code to make the desktop pet move forward
+* I finally did it, but the desktop pet just keeps moving and moving so we need to give the desktop pet a brain
+* I used the code for both sides of the screen
+
+```java
+var usable_rect = DisplayServer.screen_get_usable_rect()
+
+# Check Right Edge
+# If right of window > right side of screen
+if window.position.x + window.size.x > usable_rect.end.x:
+		direction.x = -1
+		$AnimatedSprite2D.flip_h = true
+
+# check Left edge
+# If left side of window
+elif window.position.x < usable_rect.position.x:
+		direction.x = 1
+		$AnimatedSprite2D.flip_h = false
+```
+
+* So then, when I run the code, my desktop pet can move but switch places when it is at the side of the window
+* Then we create the code to make sure the desktop pet is on the taskbar
+
+```java
+var usable_rect = DisplayServer.screen_get_usable_rect()
+	
+	# calculate floor position
+	# end.y is part of coordinate where taskbar starts
+	# Subtract window height so robot go on line
+	var target_y = usable_rect.end.y - window.size.y
+	
+	#Snap sprite there
+	window.position = Vector2i(0, target_y)
+```
+
+* So, now it works!
+* My next steps are to learn how to make the desktop pet react
+
+
+
 
 
 
