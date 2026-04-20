@@ -15,11 +15,7 @@ func _process(delta):
 	# Apply to window
 	window.position += move_vector
 ```
-I later gave it a brain by giving
-
-* Basically, I use this code to make the desktop pet move forward
-* I finally did it, but the desktop pet just keeps moving and moving so we need to give the desktop pet a brain
-* I used the code for both sides of the screen
+I later gave it a brain by learning and writing the code to flip the desktop pet around when it reaches the end of the computer screen
 
 ```java
 var usable_rect = DisplayServer.screen_get_usable_rect()
