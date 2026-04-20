@@ -57,16 +57,16 @@ func _input(event):
 			start_chilling()
 
 func start_chilling():
-	is_chilling = true
-	$AnimatedSprite2D.play("idle")
+is_chilling = true
+$AnimatedSprite2D.play("idle")
 
-	# We could add a time node connect signals, etc.
-	# or can use 'await'. It creates time waits, then destroys
-	await get_tree().create_timer(3.0).timeout
+# We could add a time node connect signals, etc.
+# or can use 'await'. It creates time waits, then destroys
+await get_tree().create_timer(3.0).timeout
 
-	# times up
-	is_chilling = false
-	$AnimatedSprite2D.play("roll")
+# times up
+is_chilling = false
+$AnimatedSprite2D.play("roll")
 ```
 For this code, I created a function for if the desktop pet is clicked, the function `start_chilling` plays. And in that function, the desktop pet will be on the idle animation frame for about three seconds and then start resume moving. Once I finished these parts of the code, my desktop pet started to move around. This is the [link](https://github.com/xinyangl5722/apcsa-freedom-project/blob/main/main.gd) to the entire code for more understanding.
 
