@@ -76,7 +76,7 @@ When I started testing it out, my mvp (minimal viable product) worked. My deskto
 The next step I would need to take is how I can add more to my desktop pet like creating dialogue, dragging the pet, etc. and also figure out how to publish my mvp so it goes public.
 
 ### EDP
-So far, I am at the _creatiing the prototype_ and _testing and evaluating the prototype_ and had just finished that stage. I started creating the code for my desktop pet such as walking, stopping when clicked, and flipping when it reached the end of the screen, and I even gave the desktop pet a simple blob design.
+So far, I am at the _creating the prototype_ and _testing and evaluating the prototype_ and had just finished that stage. I started creating the code for my desktop pet such as walking, stopping when clicked, and flipping when it reached the end of the screen, and I even gave the desktop pet a simple blob design.
 
 ### Skills
 One skill I had learned was **debugging**. When I finished my code, I realized that when my desktop pet flipped, it disappeared. So, I backtracked on my code. I got up to the code line where it says `$AnimatedSprite2D.frame_changed.connect(_update_mouse_mask)` and realized that was the reason why the desktop pet disappeared. So, I commented that out and it started to work again. Another skill I had developed was **how to learn**. I used the YouTube video series to guide me on how to move the desktop pet, flip it around when reached the end of the computer screen, and make it stop when I clicked on it.
