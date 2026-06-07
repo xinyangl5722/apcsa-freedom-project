@@ -1,16 +1,21 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Creating an interactive raise-your-hand for a relatable question
 
 ## Product
-* 
+* Show a video demo of the project
 
 ## Process
-* 
+* Include the settings where I made the background transparent
+* Then include the code where I makke the desktop pet walk and flip
+* Include an mvp where I made the desktop pet chill on idle animation when clicked on
+* Add a challenge where the desktop pet keeps disappering
+* Add the solution where I comment out a piece of code
 
 ## Conclusion
-* 
+* Time management and organize each part of the work
+* Track back steps whenever there is an error in one part of the jouurney
 
 <!-- EXAMPLE
 
